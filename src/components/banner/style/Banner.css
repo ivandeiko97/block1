@@ -1,0 +1,268 @@
+@font-face {
+  font-family: 'Audi Type Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Audi Type Bold'), url('../fonts/AudiType-Bold_03.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Audi Type Light';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/AudiTypeScreen-Light.woff') format('woff');
+}
+
+.block1 {
+  width: 100%;
+}
+
+.banner {
+  padding: 129px 0;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.banner-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  max-width: 1200px;
+  border: 4px solid #e4e4e4;
+  padding: 78px 30px 79px 0;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.banner-section__right {
+  max-width: 740px;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  margin-bottom: 52px;
+  position: relative;
+}
+
+.description-h1 {
+  font-size: 60px;
+  color: #e92d3e;
+  margin-right: 37px;
+  font-family: Audi Type Bold;
+}
+
+.description-specifications {
+  font-size: 22px;
+  color: #151515;
+  font-family: Audi Type Light;
+}
+
+.leases-information {
+  display: flex;
+  margin-bottom: 47px;
+}
+
+.lease:not(:last-child) {
+  margin-right: 73px;
+}
+
+.lease-header {
+  font-size: 16px;
+  font-family: Audi Type Bold;
+  color: #e92d3e;
+  text-transform: uppercase;
+}
+
+.lease-price {
+  font-size: 22px;
+  font-family: Audi Type Bold;
+  color: #151515;
+}
+
+.lease-price > strong {
+  font-size: 60px;
+  font-family: Audi Type Bold;
+  margin: 0;
+}
+
+.lease-signing {
+  font-size: 16px;
+  color: #7a7a7a;
+  font-family: Audi Type Light;
+}
+
+.banner-hr {
+  height: 1px;
+  color: #e4e4e4;
+  background: #e4e4e4;
+  font-size: 0;
+  border: 0;
+}
+
+.banner-offer {
+  margin-top: 49px;
+}
+
+  
+.banner-offerText {
+  font-size: 14px;
+  font-family: Audi Type Light;
+  color: #7a7a7a;
+}
+  
+.banner-offerText:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.banner-car {
+  position: absolute;
+  left: -80px;
+  top: 150px;
+}
+
+.banner-car img {
+  width: 500px;
+}
+
+@media (min-width: 1600px) {
+  .banner-wrapper {
+    max-width: 1440px;
+    padding-right: 54px;
+  }
+  
+  .banner-car {
+    left: -130px;
+    top: 130px;
+  }
+
+  .banner-car img {
+    width: 650px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .banner-car img {
+    width: 718px;
+  }
+
+  .banner-car {
+    left: -180px;
+    top: 100px;
+  }
+
+}
+@media (max-width: 1250px) {
+  .banner-wrapper {
+    width: 900px;
+    padding-right: 10px;
+  }
+  
+  .description {
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 216px);
+  }
+    
+  .leases-information {
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 360px;
+  }
+    
+  .lease {
+    margin-bottom: 40px;
+    margin-right: 0;
+  }
+  
+  .banner-car {
+    top: 200px;
+    left: -60px;
+  }
+  
+  .banner-hr {
+    display: none;
+  }
+  
+  .banner-offer {
+    position: relative;
+    right: 50px;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 49px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner-wrapper {
+    width: 700px;
+    padding-left: 10px;
+  }
+
+  .banner-car img {
+    width: 500px;
+  }
+
+  .banner-offer {
+    right: 0;
+  }
+
+  .leases-information {
+    margin-top: 450px;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .banner-car img {
+    width: 500px;
+  }
+  
+  .banner-car {
+    left: calc(50% - 250px);
+  }
+}
+
+@media (max-width: 717px) {
+  .banner-wrapper {
+    width: 500px;
+  }
+
+  .leases-information {
+    flex-direction: column;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 517px) {
+  .banner-car {
+    left: calc(50% - 150px);
+  }
+
+  .banner-car img {
+    width: 300px;
+  }
+
+  .banner-wrapper {
+    width: 320px;
+  }
+
+  .description {
+    width: 100%;
+    flex-direction: column;
+    left: 0;
+    align-items: center;
+  }
+
+  .description-h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .leases-information {
+     margin-top: 350px;
+  }
+
+  .lease {
+  }
+}
