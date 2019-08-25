@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/block1/static/css/main.250bc733.chunk.css",
+    "main.css": "/block1/static/css/main.5ebf3898.chunk.css",
     "main.js": "/block1/static/js/main.c74d62b6.chunk.js",
     "main.js.map": "/block1/static/js/main.c74d62b6.chunk.js.map",
     "runtime~main.js": "/block1/static/js/runtime~main.96979bad.js",
@@ -8,9 +8,9 @@
     "static/js/2.681bc579.chunk.js": "/block1/static/js/2.681bc579.chunk.js",
     "static/js/2.681bc579.chunk.js.map": "/block1/static/js/2.681bc579.chunk.js.map",
     "index.html": "/block1/index.html",
-    "precache-manifest.1e57f3708bb155d02cbab60b56681bcb.js": "/block1/precache-manifest.1e57f3708bb155d02cbab60b56681bcb.js",
+    "precache-manifest.7e22c9a44a714adb43af68935c63a0da.js": "/block1/precache-manifest.7e22c9a44a714adb43af68935c63a0da.js",
     "service-worker.js": "/block1/service-worker.js",
-    "static/css/main.250bc733.chunk.css.map": "/block1/static/css/main.250bc733.chunk.css.map",
+    "static/css/main.5ebf3898.chunk.css.map": "/block1/static/css/main.5ebf3898.chunk.css.map",
     "static/media/Banner.css": "/block1/static/media/AudiTypeScreen-Light.6890e6fa.woff",
     "static/media/car.png": "/block1/static/media/car.07756115.png"
   }
