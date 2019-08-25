@@ -51,6 +51,14 @@
   font-family: Audi Type Bold;
 }
 
+.description-h1::after {
+  content: url('../images/2019.png');
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  opacity: 0.3;
+}
+
 .description-specifications {
   font-size: 22px;
   color: #151515;
@@ -214,10 +222,6 @@
     margin-bottom: 0;
   }
 
-  .banner-car img {
-    width: 500px;
-  }
-  
   .banner-car {
     left: calc(50% - 250px);
   }
@@ -263,6 +267,7 @@
      margin-top: 350px;
   }
 
-  .lease {
+  .description-h1::after {
+    left: 35px;
   }
 }
